@@ -1,0 +1,75 @@
+html,body{
+    height:100%;
+}
+#wrap{
+    width: 100%;
+    position: relative;
+    min-height: 100%;
+}
+#contents{
+    padding-bottom:230px; /*フッターの高さ以上*/
+}
+
+#footer {
+    height:180px;
+    width: 100%;
+    position:absolute;
+    bottom:0;
+    background: #2f2725;
+    border: none;
+    color: #ffffff;
+    padding: 40px 70px;
+    margin-top: 50px;
+}
+
+div#footer a:link,
+div#footer a:visited,
+div#footer a:hover,
+div#footer a:active { color: #ffffff; }
+
+/* collapse無効 */
+.navbar-collapse.collapse {
+    display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+    float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+    margin-right: -15px !important;
+}
+
+.navbar-right {
+    float: right!important;
+}
+
+.navbar {
+    height: 6em;
+    border: none;
+    box-shadow: none;
+}
+
+ul.navbar-nav li a {
+    height: 6em;
+    text-align: center;
+}
+
+ul.navbar-nav li ul.dropdown-menu a {
+    height: auto;
+    text-align: left;
+}
+
+.navbar-brand {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1em;
+}
+
+.navbar-brand img {
+    height: 4em;
+}
+
+.content {
+    margin: 0.3em 1em;
+}

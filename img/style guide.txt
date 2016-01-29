@@ -1,0 +1,3 @@
+見出し画像
+・高さ 40px
+・フォント Hiragino Kaku Gothic ProN Semi-Bold 27px

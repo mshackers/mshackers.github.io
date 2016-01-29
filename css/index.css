@@ -1,0 +1,21 @@
+@import "base.css";
+
+.itemTitle a{font-weight:bold; color:#4EBAFF !important; text-decoration:none }
+.itemTitle a:hover{ text-decoration:underline }
+.itemDate{font-size:70%;color:#AAAAAA;}
+
+.panel-body {
+    padding: 0;
+}
+.panel-footer {
+    text-align: right;
+}
+
+.panel {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 1000px;
+}
