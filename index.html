@@ -1,165 +1,301 @@
 <!DOCTYPE html>
 <html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="エムエスハッカーズ合同会社の公式サイト" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="エムエスハッカーズ合同会社の公式サイト">
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-        crossorigin="anonymous" />
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous" />
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
 
     <script src="js/base.js"></script>
     <script src="js/index.js"></script>
 
-    <link href="css/index.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet" />
 
-    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="favicon/android-chrome-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-TileImage" content="favicon/mstile-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="favicon/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="favicon/apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="favicon/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="favicon/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="favicon/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="favicon/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="favicon/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="favicon/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="favicon/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="favicon/android-chrome-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="favicon/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link rel="manifest" href="favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="msapplication-TileImage" content="favicon/mstile-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
 
     <title>エムエスハッカーズ合同会社 (MS Hackers, LLC)</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="fb-root"></div>
-    <script>(function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.3";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
+    <script>
+      (function(d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = '//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.3';
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, 'script', 'facebook-jssdk');
+    </script>
 
     <div id="wrap">
-        <div id="contents">
-            <div class="navbar navbar-default container-fluid">
-                <div>
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a class="navbar-brand" style="padding: 13px 15px" href="/"><img src="img/symbol.svg" alt="MS Hackers"></a>
-                        </li>
-                        <li class="active"><a href="/"><i class="fa fa-home fa-2x text-primary"></i><br>Home</a></li>
-                        <li><a href="about.html"><i class="fa fa-building fa-2x text-primary"></i><br>About</a></li>
-                        <li><a href="product.html"><i class="fa fa-cogs fa-2x text-primary"></i><br>Product</a></li>
-                        <li><a href="archive.html"><i class="fa fa-archive fa-2x text-primary"></i><br>Archive</a></li>
-                        <li><a href="https://blog.mshackers.co.jp"><i class="fa fa-edit fa-2x text-primary"></i><br>Blog</a>
-                        </li>
-                        <li><a href="https://store.mshackers.co.jp"><i class="fa fa-shopping-cart fa-2x text-primary"></i><br>Store</a>
-                        </li>
-                        <li><a href="contact.html"><i class="fa fa-envelope fa-2x text-primary"></i><br>Contact</a></li>
-                    </ul>
+      <div id="contents">
+        <div class="navbar navbar-default container-fluid">
+          <div>
+            <ul class="nav navbar-nav">
+              <li>
+                <a class="navbar-brand" style="padding: 13px 15px" href="/"
+                  ><img src="img/symbol.svg" alt="MS Hackers"
+                /></a>
+              </li>
+              <li class="active">
+                <a href="/"
+                  ><i class="fa fa-home fa-2x text-primary"></i><br />Home</a
+                >
+              </li>
+              <li>
+                <a href="about.html"
+                  ><i class="fa fa-building fa-2x text-primary"></i
+                  ><br />About</a
+                >
+              </li>
+              <li>
+                <a href="archive.html"
+                  ><i class="fa fa-archive fa-2x text-primary"></i
+                  ><br />Archive</a
+                >
+              </li>
+              <li>
+                <a href="https://blog.mshackers.co.jp"
+                  ><i class="fa fa-edit fa-2x text-primary"></i><br />Blog</a
+                >
+              </li>
+              <li>
+                <a href="https://store.mshackers.co.jp"
+                  ><i class="fa fa-shopping-cart fa-2x text-primary"></i
+                  ><br />Store</a
+                >
+              </li>
+              <li>
+                <a href="contact.html"
+                  ><i class="fa fa-envelope fa-2x text-primary"></i
+                  ><br />Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container">
+          <div id="banner" class="row">
+            <div class="col-xs-12">
+              <img
+                class="img-responsive"
+                src="img/banner.png"
+                alt="MS Hackers"
+                style="margin-left: auto; margin-right: auto;"
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="jumbotron">
+                <h2>作りたいものを作るための会社</h2>
+                <p>
+                  ウェブシステムからロボットまで、作りたいものなら何でも作る会社です
+                </p>
+                <p>
+                  <a
+                    class="btn btn-primary btn-lg"
+                    href="about.html"
+                    role="button"
+                    >会社紹介</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="detail">
+            <div>
+              <a href="archive.html">
+                <div class="panel panel-primary">
+                  <div class="panel-heading">
+                    <img src="img/受託開発.png" alt="受託開発" />
+                  </div>
+                  <div class="panel-body">
+                    <div class="content">
+                      <img
+                        class="img-responsive img-thumbnail"
+                        src="img/しゃっくん.jpg"
+                        alt="しゃっくん"
+                      />
+                    </div>
+                  </div>
                 </div>
+              </a>
+            </div>
+            <div>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <img src="img/独自研究.png" alt="独自研究" />
+                </div>
+                <div class="content">
+                  <img
+                    class="img-responsive img-thumbnail"
+                    src="img/掃除機.jpg"
+                    alt="掃除機"
+                  />
+                </div>
+                <div class="panel-body"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="social" style="display: none;">
+            <div>
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  <a
+                    class="twitter-timeline"
+                    href="https://twitter.com/ms_hackers"
+                    data-widget-id="608919655688765440"
+                    data-chrome="noborders"
+                    >@ms_hackersのツイート</a
+                  >
+                  <script>
+                    !(function(d, s, id) {
+                      var js,
+                        fjs = d.getElementsByTagName(s)[0],
+                        p = /^http:/.test(d.location) ? 'http' : 'https';
+                      if (!d.getElementById(id)) {
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = p + '://platform.twitter.com/widgets.js';
+                        fjs.parentNode.insertBefore(js, fjs);
+                      }
+                    })(document, 'script', 'twitter-wjs');
+                  </script>
+                </div>
+              </div>
             </div>
 
-            <div class="container">
-                <div id="banner" class="row">
-                    <div class="col-xs-12">
-                        <img class="img-responsive" src="img/banner.png" alt="MS Hackers" style="margin-left: auto; margin-right: auto;">
+            <div>
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  <div
+                    class="fb-page"
+                    data-href="https://www.facebook.com/MSHackersLLC"
+                    data-width="500"
+                    data-height="400"
+                    data-hide-cover="false"
+                    data-show-facepile="false"
+                    data-show-posts="true"
+                  >
+                    <div class="fb-xfbml-parse-ignore">
+                      <blockquote cite="https://www.facebook.com/MSHackersLLC">
+                        <a href="https://www.facebook.com/MSHackersLLC"
+                          >エムエスハッカーズ合同会社</a
+                        >
+                      </blockquote>
                     </div>
+                  </div>
                 </div>
-
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="jumbotron">
-                            <h2>作りたいものを作るための会社</h2>
-                            <p>ウェブシステムからロボットまで、作りたいものなら何でも作る会社です</p>
-                            <p><a class="btn btn-primary btn-lg" href="about.html" role="button">会社紹介</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="detail">
-                    <div>
-                        <a href="product.html">
-                            <div class="panel panel-primary">
-                                <div class="panel-heading"><img src="img/自社製品.png" alt="自社製品"></div>
-                                <div class="panel-body">
-                                    <div class="content"><img class="img-responsive img-thumbnail" src="img/QUES.png" alt="QUES"></div>
-                                    <!--<p class="content"><a href="product.html">アカデミックソフトウェアからニッチな趣味製品まで</a></p>-->
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="archive.html">
-                            <div class="panel panel-primary">
-                                <div class="panel-heading"><img src="img/受託開発.png" alt="受託開発"></div>
-                                <div class="panel-body">
-                                    <div class="content"><img class="img-responsive img-thumbnail" src="img/しゃっくん.jpg" alt="しゃっくん"></div>
-                                    <!--<p class="content">ウェブシステムからロボットまで柔軟に対応</p>-->
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div>
-                        <div class="panel panel-primary">
-                            <div class="panel-heading"><img src="img/独自研究.png" alt="独自研究"></div>
-                            <div class="content"><img class="img-responsive img-thumbnail" src="img/掃除機.jpg" alt="掃除機"></div>
-                            <div class="panel-body">
-                                <!--<p class="content">研究？遊び？両方です</p>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="social" style="display: none;">
-                    <div>
-                        <div class="panel panel-default">
-                            <div class="panel-body">
-                                <a class="twitter-timeline" href="https://twitter.com/ms_hackers" data-widget-id="608919655688765440" data-chrome="noborders">@ms_hackersのツイート</a>
-                                <script>!function (d, s, id) {
-                                        var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-                                        if (!d.getElementById(id)) {
-                                            js = d.createElement(s);
-                                            js.id = id;
-                                            js.src = p + "://platform.twitter.com/widgets.js";
-                                            fjs.parentNode.insertBefore(js, fjs);
-                                        }
-                                    }(document, "script", "twitter-wjs");</script>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="panel panel-default">
-                            <div class="panel-body">
-                                <div class="fb-page" data-href="https://www.facebook.com/MSHackersLLC" data-width="500" data-height="400" data-hide-cover="false"
-                                    data-show-facepile="false" data-show-posts="true">
-                                    <div class="fb-xfbml-parse-ignore">
-                                        <blockquote cite="https://www.facebook.com/MSHackersLLC"><a href="https://www.facebook.com/MSHackersLLC">エムエスハッカーズ合同会社</a></blockquote>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+              </div>
             </div>
+          </div>
+        </div>
 
-            <!--
+        <!--
 
         <div class="container">
             <div class="row">
@@ -202,32 +338,44 @@
             </div>
         </div>
         -->
-
+      </div>
+      <div id="footer" class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+            <address>
+              <dl class="dl-horizontal">
+                <dt><i class="far fa-building"></i></dt>
+                <dd>
+                  <a href="https://mshackers.co.jp"
+                    >エムエスハッカーズ合同会社（MS Hackers, LLC）</a
+                  >
+                </dd>
+                <dt><i class="far fa-envelope"></i></dt>
+                <dd>
+                  <a
+                    href="mailto:&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#109;&#115;&#104;&#97;&#99;&#107;&#101;&#114;&#115;&#46;&#99;&#111;&#46;&#106;&#112;"
+                  >
+                    &#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#109;&#115;&#104;&#97;&#99;&#107;&#101;&#114;&#115;&#46;&#99;&#111;&#46;&#106;&#112;</a
+                  >
+                </dd>
+                <dt><i class="fab fa-twitter"></i></dt>
+                <dd>
+                  <a href="https://twitter.com/ms_hackers">@ms_hackers</a>
+                </dd>
+                <dt><i class="fab fa-facebook"></i></dt>
+                <dd>
+                  <a href="https://www.facebook.com/MSHackersLLC"
+                    >MSHackersLLC</a
+                  >
+                </dd>
+              </dl>
+            </address>
+          </div>
         </div>
-        <div id="footer" class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12">
-                    <address>
-                        <dl class="dl-horizontal">
-                            <dt><i class="far fa-building"></i></dt>
-                            <dd><a href="https://mshackers.co.jp">エムエスハッカーズ合同会社（MS Hackers, LLC）</a></dd>
-                            <dt><i class="far fa-envelope"></i></dt>
-                            <dd><a href="mailto:&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#109;&#115;&#104;&#97;&#99;&#107;&#101;&#114;&#115;&#46;&#99;&#111;&#46;&#106;&#112;">
-                                    &#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#109;&#115;&#104;&#97;&#99;&#107;&#101;&#114;&#115;&#46;&#99;&#111;&#46;&#106;&#112;</a></dd>
-                            <dt><i class="fab fa-twitter"></i></dt>
-                            <dd><a href="https://twitter.com/ms_hackers">@ms_hackers</a></dd>
-                            <dt><i class="fab fa-facebook"></i></dt>
-                            <dd><a href="https://www.facebook.com/MSHackersLLC">MSHackersLLC</a></dd>
-                        </dl>
-                    </address>
-                </div>
-            </div>
-        </div>
+      </div>
 
-        <!-- #footer -->
-
+      <!-- #footer -->
     </div>
     <!-- #wrap -->
-</body>
-
+  </body>
 </html>
